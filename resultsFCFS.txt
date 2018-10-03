@@ -1,0 +1,127 @@
+Process 100 Page Requests: 1002%0%1000%2%1001%2%1000%1%1002%3%1002%2%1001%1%1002%3%1000%1%1001%1%1001%3%1001%1%1003%0%
+Process 101 Page Requests: 1011%3%1009%1%1008%0%1008%3%1014%0%1011%1%1014%2%
+Process 102 Page Requests: 1029%1%1021%1%1015%0%1026%0%1024%1%1017%1%1015%1%1015%0%1021%0%1024%3%1029%2%
+Process 103 Page Requests: 1034%0%
+Scheduling algorithm: First Come First Serve
+Time: 0
+	ARRIVING: Process 100 placed in mainmem
+	CALLING: Process 100, Page 1002, index 0
+	100:	Y
+Time: 1
+	CALLING: Process 100, Page 1000, index 2
+	100:	O
+Time: 2
+	CALLING: Process 100, Page 1001, index 2
+	100:	Z
+Time: 3
+	CALLING: Process 100, Page 1000, index 1
+	100:	Y
+Time: 4
+	ARRIVING: Process 101 placed in mainmem
+	CALLING: Process 100, Page 1002, index 3
+	100:	N
+Time: 5
+	CALLING: Process 100, Page 1002, index 2
+	100:	I
+Time: 6
+	CALLING: Process 100, Page 1001, index 1
+	100:	U
+Time: 7
+	CALLING: Process 100, Page 1002, index 3
+	100:	N
+Time: 8
+	ARRIVING: Process 102 suspended
+	CALLING: Process 100, Page 1000, index 1
+	100:	Y
+Time: 9
+	CALLING: Process 100, Page 1001, index 1
+	100:	U
+Time: 10
+	CALLING: Process 100, Page 1001, index 3
+	100:	D
+Time: 11
+	CALLING: Process 100, Page 1001, index 1
+	100:	U
+Time: 12
+	ARRIVING: Process 103 suspended
+	CALLING: Process 100, Page 1003, index 0
+	100:	!
+	EXITING: Process 100
+	MOVING TO MAIN MEM: Ready/Suspended Process 102
+Time: 13
+	CALLING: Process 101, Page 1011, index 3
+	101:	Z
+Time: 14
+	CALLING: Process 101, Page 1009, index 1
+	101:	Y
+Time: 15
+	CALLING: Process 101, Page 1008, index 0
+	101:	A
+Time: 16
+	CALLING: Process 101, Page 1008, index 3
+	101:	T
+Time: 17
+	CALLING: Process 101, Page 1014, index 0
+	101:	Z
+Time: 18
+	CALLING: Process 101, Page 1011, index 1
+	101:	S
+Time: 19
+	CALLING: Process 101, Page 1014, index 2
+	101:	!
+	EXITING: Process 101
+	MOVING TO MAIN MEM: Ready/Suspended Process 103
+Time: 20
+	CALLING: Process 102, Page 1029, index 1
+	102:	F
+Time: 21
+	CALLING: Process 102, Page 1021, index 1
+	102:	L
+Time: 22
+	CALLING: Process 102, Page 1015, index 0
+	102:	C
+Time: 23
+	CALLING: Process 102, Page 1026, index 0
+	102:	P
+Time: 24
+	CALLING: Process 102, Page 1024, index 1
+	102:	A
+Time: 25
+	CALLING: Process 102, Page 1017, index 1
+	102:	D
+Time: 26
+	CALLING: Process 102, Page 1015, index 1
+	102:	X
+Time: 27
+	CALLING: Process 102, Page 1015, index 0
+	102:	C
+Time: 28
+	CALLING: Process 102, Page 1021, index 0
+	102:	E
+Time: 29
+	CALLING: Process 102, Page 1024, index 3
+	102:	T
+Time: 30
+	CALLING: Process 102, Page 1029, index 2
+	102:	!
+	EXITING: Process 102
+Time: 31
+	CALLING: Process 103, Page 1034, index 0
+	103:	!
+	EXITING: Process 103
+Time: 32
+Time: 33
+Time: 34
+Time: 35
+Time: 36
+Time: 37
+Time: 38
+Time: 39
+Time: 40
+Time: 41
+Time: 42
+Time: 43
+Time: 44
+Time: 45
+Time: 46
+Time: 47

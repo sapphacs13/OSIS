@@ -1,0 +1,124 @@
+Process 100 Page Requests: 1000%2%1006%1%1000%0%1003%0%1008%3%1002%1%1004%3%1008%3%1000%3%1008%1%1007%3%1008%0%1009%0%
+Process 101 Page Requests: 1022%1%1013%0%1020%0%1022%1%1014%2%1018%2%1018%2%1014%2%1022%3%1019%3%1014%1%1013%1%1024%0%1019%2%1024%2%
+Process 102 Page Requests: 1028%3%1029%1%
+
+Scheduling algorithm: Shortest Remaining Time
+Time: 0
+	ARRIVING: Process 100 placed in mainmem
+	CALLING: Process 100, Page 1000, index 2
+	100:	R
+Time: 1
+	CALLING: Process 100, Page 1006, index 1
+	100:	*
+	BLOCKING: Process 100
+Time: 2
+Time: 3
+Time: 4
+	ARRIVING: Process 101 placed in mainmem
+	CALLING: Process 101, Page 1022, index 1
+	101:	Y
+Time: 5
+	UNBLOCKING: Blocked Process 100
+	CALLING: Process 101, Page 1013, index 0
+	101:	L
+Time: 6
+	CALLING: Process 101, Page 1020, index 0
+	101:	E
+Time: 7
+	CALLING: Process 101, Page 1022, index 1
+	101:	Y
+Time: 8
+	ARRIVING: Process 102 suspended
+	CALLING: Process 100, Page 1000, index 0
+	100:	Z
+Time: 9
+	CALLING: Process 100, Page 1003, index 0
+	100:	I
+Time: 10
+	CALLING: Process 100, Page 1008, index 3
+	100:	J
+Time: 11
+	CALLING: Process 100, Page 1002, index 1
+	100:	M
+Time: 12
+	CALLING: Process 100, Page 1004, index 3
+	100:	B
+Time: 13
+	CALLING: Process 100, Page 1008, index 3
+	100:	J
+Time: 14
+	CALLING: Process 100, Page 1000, index 3
+	100:	M
+Time: 15
+	CALLING: Process 100, Page 1008, index 1
+	100:	Y
+Time: 16
+	CALLING: Process 100, Page 1007, index 3
+	100:	N
+Time: 17
+	CALLING: Process 100, Page 1008, index 0
+	100:	R
+Time: 18
+	CALLING: Process 100, Page 1009, index 0
+	100:	!
+	EXITING: Process 100
+	MOVING TO MAIN MEM: Ready/Suspended Process 102
+Time: 19
+	CALLING: Process 102, Page 1028, index 3
+	102:	I
+Time: 20
+	CALLING: Process 102, Page 1029, index 1
+	102:	!
+	EXITING: Process 102
+Time: 21
+	CALLING: Process 101, Page 1014, index 2
+	101:	C
+Time: 22
+	CALLING: Process 101, Page 1018, index 2
+	101:	P
+Time: 23
+	CALLING: Process 101, Page 1018, index 2
+	101:	P
+Time: 24
+	CALLING: Process 101, Page 1014, index 2
+	101:	C
+Time: 25
+	CALLING: Process 101, Page 1022, index 3
+	101:	G
+Time: 26
+	CALLING: Process 101, Page 1019, index 3
+	101:	*
+	BLOCKING: Process 101
+Time: 27
+Time: 28
+Time: 29
+Time: 30
+	UNBLOCKING: Blocked Process 101
+	CALLING: Process 101, Page 1014, index 1
+	101:	Z
+Time: 31
+	CALLING: Process 101, Page 1013, index 1
+	101:	K
+Time: 32
+	CALLING: Process 101, Page 1024, index 0
+	101:	O
+Time: 33
+	CALLING: Process 101, Page 1019, index 2
+	101:	R
+Time: 34
+	CALLING: Process 101, Page 1024, index 2
+	101:	!
+	EXITING: Process 101
+Time: 35
+Time: 36
+Time: 37
+Time: 38
+Time: 39
+Time: 40
+Time: 41
+Time: 42
+Time: 43
+Time: 44
+Time: 45
+Time: 46
+Time: 47

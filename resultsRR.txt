@@ -1,0 +1,185 @@
+Process 100 Page Requests: 1010%0%1010%0%1002%1%1003%1%1011%1%1013%1%1006%2%1007%2%1004%0%1002%0%1004%3%1004%0%1014%0%1009%3%1004%1%1014%3%
+Process 101 Page Requests: 1020%3%1026%1%1025%3%1026%1%1018%3%1024%3%1029%3%1029%2%1018%1%1024%0%1021%3%1020%0%1029%3%1030%1%
+Process 102 Page Requests: 1046%0%
+Scheduling algorithm: Round Robin
+Time: 0
+	ARRIVING: Process 100 placed in mainmem
+		page 1000: J*NW
+		page 1001: ERJS
+		page 1002: GOZP
+		page 1003: MLEO
+		page 1004: SGHQ
+		page 1005: PSTU
+		page 1006: XBAI
+		page 1007: BKUQ
+		page 1008: TZQK
+		page 1009: MAPE
+		page 1010: FOWU
+		page 1011: IFWX
+		page 1012: Y*HF
+		page 1013: JGPD
+		page 1014: QPD!
+
+	STARTING: Process 100
+	CALLING: Process 100, Page 1010, index 0
+	100:	F
+Time: 1
+	CALLING: Process 100, Page 1010, index 0
+	100:	F
+Time: 2
+	CALLING: Process 100, Page 1002, index 1
+	100:	O
+Time: 3
+	CALLING: Process 100, Page 1003, index 1
+	100:	L
+Time: 4
+	ARRIVING: Process 101 placed in mainmem
+		page 1015: NUSF
+		page 1016: KXRI
+		page 1017: QQDP
+		page 1018: GK*O
+		page 1019: PUZO
+		page 1020: SYPV
+		page 1021: BWOV
+		page 1022: FSOX
+		page 1023: NEAF
+		page 1024: *UZI
+		page 1025: JY*O
+		page 1026: EBTN
+		page 1027: DZOF
+		page 1028: *RDP
+		page 1029: OLDU
+		page 1030: J!
+
+	CALLING: Process 100, Page 1011, index 1
+	100:	F
+Time: 5
+	CALLING: Process 100, Page 1013, index 1
+	100:	G
+	TIMEOUT: Process 100
+Time: 6
+	STARTING: Process 101
+	CALLING: Process 101, Page 1020, index 3
+	101:	V
+Time: 7
+	CALLING: Process 101, Page 1026, index 1
+	101:	B
+Time: 8
+	ARRIVING: Process 102 suspended
+		page 1031: VCBK
+		page 1032: L*TT
+		page 1033: DKZM
+		page 1034: ZVXX
+		page 1035: ZMSI
+		page 1036: QW*K
+		page 1037: VPXU
+		page 1038: KG*Q
+		page 1039: IZIM
+		page 1040: NIUF
+		page 1041: QPUU
+		page 1042: WDRB
+		page 1043: RKWV
+		page 1044: BRAQ
+		page 1045: UKSU
+		page 1046: !
+
+	CALLING: Process 101, Page 1025, index 3
+	101:	O
+Time: 9
+	CALLING: Process 101, Page 1026, index 1
+	101:	B
+Time: 10
+	CALLING: Process 101, Page 1018, index 3
+	101:	O
+Time: 11
+	CALLING: Process 101, Page 1024, index 3
+	101:	I
+	TIMEOUT: Process 101
+Time: 12
+	STARTING: Process 100
+	CALLING: Process 100, Page 1006, index 2
+	100:	A
+Time: 13
+	CALLING: Process 100, Page 1007, index 2
+	100:	U
+Time: 14
+	CALLING: Process 100, Page 1004, index 0
+	100:	S
+Time: 15
+	CALLING: Process 100, Page 1002, index 0
+	100:	G
+Time: 16
+	CALLING: Process 100, Page 1004, index 3
+	100:	Q
+Time: 17
+	CALLING: Process 100, Page 1004, index 0
+	100:	S
+	TIMEOUT: Process 100
+Time: 18
+	STARTING: Process 101
+	CALLING: Process 101, Page 1029, index 3
+	101:	U
+Time: 19
+	CALLING: Process 101, Page 1029, index 2
+	101:	D
+Time: 20
+	CALLING: Process 101, Page 1018, index 1
+	101:	K
+Time: 21
+	CALLING: Process 101, Page 1024, index 0
+	101:	*
+	BLOCKING: Process 101
+	SUSPENDING: Blocked Process 101
+	MOVING TO MAIN MEM: Suspended Process 102
+Time: 22
+	STARTING: Process 100
+	CALLING: Process 100, Page 1014, index 0
+	100:	Q
+Time: 23
+	CALLING: Process 100, Page 1009, index 3
+	100:	E
+Time: 24
+	CALLING: Process 100, Page 1004, index 1
+	100:	G
+Time: 25
+	UNBLOCKING: Blocked/Suspended Process 101
+	CALLING: Process 100, Page 1014, index 3
+	100:	!
+	EXITING: Process 100
+	MOVING TO MAIN MEM: Ready/Suspended Process 101
+Time: 26
+	STARTING: Process 102
+	CALLING: Process 102, Page 1046, index 0
+	102:	!
+	EXITING: Process 102
+Time: 27
+	STARTING: Process 101
+	CALLING: Process 101, Page 1021, index 3
+	101:	V
+Time: 28
+	CALLING: Process 101, Page 1020, index 0
+	101:	S
+Time: 29
+	CALLING: Process 101, Page 1029, index 3
+	101:	U
+Time: 30
+	CALLING: Process 101, Page 1030, index 1
+	101:	!
+	EXITING: Process 101
+Time: 31
+Time: 32
+Time: 33
+Time: 34
+Time: 35
+Time: 36
+Time: 37
+Time: 38
+Time: 39
+Time: 40
+Time: 41
+Time: 42
+Time: 43
+Time: 44
+Time: 45
+Time: 46
+Time: 47
